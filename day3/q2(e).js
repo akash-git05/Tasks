@@ -8,7 +8,7 @@ let palindromes = (str) => {
         palindromes1.push(str[i]);
       }
     }
-    return palindromes1.join();
+    console.log(...palindromes1);
   }
   
-  console.log(palindromes("madam","mad"));
+  palindromes("madam","mad");
