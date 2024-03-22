@@ -1,0 +1,99 @@
+body{
+    background-color: #CAD2C5;
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: #2F3D46;
+    margin: 0;
+}
+header>.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 650px;
+}
+header>.git-icon{
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center;
+    font-size: 3em; 
+    margin-left: 20px;
+    color: white; 
+}
+.container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+   
+}
+.container1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+   
+}
+
+.row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+.row2>div{
+    
+    width :200px;
+    margin: 10px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #353535;
+}
+.row1{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.row1>div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid black;
+    width :700px;
+    margin: 10px;
+    margin-left: 60px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #353535;
+    color: grey;
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding-left:20px;
+    margin-top: 60px;
+    
+}
+.row3{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.row3>div{
+    border: 1px solid black;
+    width :90%;
+    margin: 10px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #353535;
+    margin-top:30px ;
+}
+.column1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.column1>div{
+    height: 90%;
+    width: 330px;
+    background-color: #353535;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 160px;
+    margin-top: 70px;
+}
